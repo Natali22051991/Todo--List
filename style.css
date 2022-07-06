@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(223, 204, 175);
+}
+
+.container {
+    display: block;
+    min-width: 300px;
+}
+
+
+.headName {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 36px;
+
+
+}
+
+.list {
+    height: auto;
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 11px 29px;
+}
+
+.addBtn {
+    display: block;
+
+}
+
+
+li button {
+    display: none;
+}
+
+li.completed button {
+    display: inline-block;
+}
+
+li.completed span {
+    text-decoration: line-through;
+}
+
+.backdrop {
+    position: fixed;
+    background-color: rgba(28, 28, 28, 0.606);
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
+}
