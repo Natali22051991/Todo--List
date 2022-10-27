@@ -5,28 +5,45 @@ body {
 .container {
     display: block;
     min-width: 300px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 
 .headName {
     text-align: center;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 36px;
-
+    background-color: bisque;
 
 }
 
 .list {
+    display: flex;
+    flex-direction: column;
     height: auto;
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 14px;
     padding: 11px 29px;
+    background-color: bisque;
+
 }
+.newLi{
+    display: flex;
+}
+img{
+    width: 15px;
+    height: auto;
+}
+
+
 
 .addBtn {
-    display: block;
-
+display: block;
+cursor: pointer;
 }
+
+
 
 
 li button {
@@ -34,10 +51,17 @@ li button {
 }
 
 li.completed button {
-    display: inline-block;
+    display: flex;
 }
 
-li.completed span {
+.crlearBtn{
+    align-items: center;
+    border: none;
+    background: none;
+    cursor:pointer
+    }
+
+li.completed  {
     text-decoration: line-through;
 }
 
