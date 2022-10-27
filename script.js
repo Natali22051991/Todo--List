@@ -1,4 +1,4 @@
-const conteiner = document.querySelector('.container')
+const container = document.querySelector('.container')
 const headName = document.querySelector('.headName')
 const list = document.querySelector('.list')
 const addBtn = document.querySelector('button')
